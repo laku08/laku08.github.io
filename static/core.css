@@ -30,12 +30,14 @@ body {
 }
 
 .profile-pic {
-    height: 500px;
+    padding-top: 50px;
+    height: 350px; 
     width: auto;
 }
 
 .footer {
     color: white;
+    background-color: black;
 }
 
 
@@ -68,4 +70,14 @@ body {
     padding-left: 100px;
     padding-top: 50px;
     font-size: 60px;   
+}
+
+.first-card-text {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800; 
+    margin-left: 30px;
+}
+
+.filled {
+    fill: url('pt.jpeg');
 }
