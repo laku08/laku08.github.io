@@ -4,13 +4,25 @@ body {
     background-size: auto;
 }
 
-.card {
+.page-card {
     background-color: white;
 }
 
-.icon {
-    height: 500px;
+.timer {
     width: auto;
+}
+
+.icon-img {
+    height: 250px;
+    width: auto;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons-text {
+    text-align: center;
 }
 
 .profile-pic {
@@ -20,4 +32,29 @@ body {
 
 .footer {
     color: white;
+}
+
+.main {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#id {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+
+}
+
+.counter {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    font-size: 120px; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+.counter-text {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
 }
