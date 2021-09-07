@@ -13,16 +13,20 @@ body {
 }
 
 .icon-img {
-    height: 250px;
+    max-height: 250px;
+    height: auto;
     width: auto;
 }
 
 .icons {
     text-align: center;
+    border: solid 1.5px; 
+    border-color: black;
 }
 
 .icons-text {
-    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
 }
 
 .profile-pic {
@@ -57,4 +61,16 @@ body {
 .counter-text {
     font-family: 'Poppins', sans-serif; 
     font-weight: 700;
+}
+
+.fourth-text {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800;
+}
+
+.fourth-h1 {
+    letter-spacing: 3px;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 60px;   
 }
